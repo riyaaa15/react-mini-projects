@@ -1,0 +1,9 @@
+.product{
+    border: 1px solid black;
+    margin: 200px 10px;
+    width: 210px;
+    height: 190px;
+    border-radius: 10px;
+    background: #e1e1e1aa;
+    text-align: center;
+}
