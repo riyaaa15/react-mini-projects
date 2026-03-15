@@ -44,4 +44,4 @@ export default function Calculator() {
           <p className="result">Result: {Result}</p>
         </div>
     );
-}
+};
