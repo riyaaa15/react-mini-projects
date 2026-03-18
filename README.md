@@ -7,3 +7,5 @@ This repository contains small React projects created while practicing React fun
 It is built using reusable React components and props to practice component structure and basic UI layout.
 
 2. mini-calculator - A simple React calculator with add, subtract, multiply and divide operations. Built with useState hook and CSS glassmorphism styling. 🧮
+
+3. counter 
