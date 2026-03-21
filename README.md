@@ -8,4 +8,5 @@ It is built using reusable React components and props to practice component stru
 
 2. mini-calculator - A simple React calculator with add, subtract, multiply and divide operations. Built with useState hook and CSS glassmorphism styling. 🧮
 
-3. counter 
+3. Counter - A simple React counter app with increment, decrement, and reset functionality.
+Built using the useState hook with a safeguard that prevents the count from going below zero. 🔢
