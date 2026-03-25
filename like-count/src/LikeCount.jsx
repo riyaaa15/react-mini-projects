@@ -1,4 +1,5 @@
 import { useState } from "react";
+import "./LikeCount.css";
 
 export default function LikeCount() {
 
@@ -13,7 +14,7 @@ export default function LikeCount() {
 
     return (
         <div>
-            <p>Clicks = {clicks}</p>
+            <p className="text">Clicks = {clicks}</p>
             <p onClick={togglelike}>
                {isLiked ? (
                  <i className="fa-solid fa-heart" style={likeStyle}></i>

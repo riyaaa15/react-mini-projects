@@ -1,5 +1,4 @@
 import LikeCount from "./LikeCount";
-import './App.css'
 
 function App() {
 
