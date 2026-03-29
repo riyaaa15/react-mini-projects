@@ -1,10 +1,10 @@
-// import DiceRoller from "./DiceRoller";
+import DiceRoller from "./DiceRoller";
 import "./App.css";
 
 function App() {
   return (
     <>
-    
+    <DiceRoller/>
    </>
   );
 }
