@@ -1,6 +1,5 @@
 import { useState } from "react";
 import DiceDisplay from "./DiceDisplay";
-// import "./DiceRoller.css";
 
 export default function DiceRoller() {
     const [number, setNumber] = useState(null);
