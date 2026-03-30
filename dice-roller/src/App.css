@@ -7,20 +7,21 @@
 }
 
 body {
-    background-color: #f0f4ff;
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: 'Nunito', sans-serif;
+  background: #f0f4ff;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Nunito', sans-serif;
 }
 
-.table{
-    background: white;
-    border-radius: 20px;
-    padding: 36px 40px;
-    width: 340px;
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+.table {
+  background: white;
+  border-radius: 20px;
+  padding: 36px 40px;
+  width: 340px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  text-align: center;
 }
 
 .title {
@@ -36,4 +37,93 @@ body {
   font-weight: 800;
   color: #333;
   margin-bottom: 28px;
+}
+
+.dice-tray {
+  background: #f7f7f7;
+  border: 2px dashed #ddd;
+  border-radius: 14px;
+  height: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 24px;
+  position: relative;
+}
+
+.dice-emoji {
+  font-size: 80px;
+  animation: pop 0.3s ease;
+}
+
+.dice-emoji.lucky {
+  animation: pop 0.3s ease, shake 0.4s ease 0.3s;
+}
+
+@keyframes pop {
+  0%   { transform: scale(0.5); opacity: 0; }
+  70%  { transform: scale(1.15); }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+@keyframes shake {
+  0%, 100% { transform: rotate(0deg); }
+  25%       { transform: rotate(-8deg); }
+  75%       { transform: rotate(8deg); }
+}
+
+.placeholder-text {
+  color: #bbb;
+  font-size: 15px;
+}
+
+.number-badge {
+  position: absolute;
+  top: 8px;
+  right: 12px;
+  background: #6bbe6f;
+  color: white;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: 20px;
+}
+
+.roll-btn {
+  width: 100%;
+  padding: 14px;
+  background: #6bbe6f;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.1s;
+}
+
+.roll-btn:hover {
+   background: #65aa68;
+}
+
+.roll-btn:active {
+  transform: scale(0.97);
+}
+
+.lucky-msg {
+  margin-top: 18px;
+  background: #fff8e1;
+  border-left: 4px solid #ffc107;
+  border-radius: 6px;
+  padding: 10px 14px;
+  font-size: 15px;
+  color: #555;
+  text-align: left;
+}
+
+.divider {
+  margin-top: 20px;
+  border: none;
+  border-top: 1px solid #eee;
 }

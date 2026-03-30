@@ -4,7 +4,7 @@ export default function DiceDisplay({ number }) {
     if (!number) return null;
 
     return (
-        <span className={`dice-emojie ${number === 6 ? "licky" : ""}`}>
+        <span className={`dice-emoji ${number === 6 ? "licky" : ""}`}>
             {diceEmojis[number]}
         </span>
     );
