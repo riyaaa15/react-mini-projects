@@ -18,7 +18,7 @@ export default function VoteList() {
     );
   }
 
-  //Winner logic 
+  //Winner logic
   let winner;
   if(options[0].votes > options[1].votes){
     winner = `${options[0].name} is Winning! 🏆`;
