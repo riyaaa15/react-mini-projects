@@ -15,5 +15,7 @@ Built using the useState hook with a safeguard that prevents the count from goin
 Built using useState hook and Font Awesome icons. ❤️
 
 5. Dice Roller 🎲- A fun React mini project that simulates a casino-style dice roll. On each click, it generates a random number between 1–6 and displays it with a dynamic dice UI.
-
 Built using the useState hook, it also uses conditional rendering to show results, placeholder text, and a special “Lucky Roll” message when the user rolls a 6.
+
+6. Movie Watch List 🎬 - A simple React app to manage a list of movies and track watched status. Users can mark movies as watched, and the app updates the count dynamically.
+Built using the useState hook, along with array mapping and conditional updates to handle state changes efficiently.
