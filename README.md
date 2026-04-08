@@ -19,3 +19,5 @@ Built using the useState hook, it also uses conditional rendering to show result
 
 6. Movie Watch List 🎬 - A simple React app to manage a list of movies and track watched status. Users can mark movies as watched, and the app updates the count dynamically.
 Built using the useState hook, along with array mapping and conditional updates to handle state changes efficiently.
+
+7. Report-Card-Generator 
