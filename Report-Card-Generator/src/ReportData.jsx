@@ -1,4 +1,4 @@
-// import "./ReportData.css";
+import "./ReportData.css";
 
 export default function ReportData({
     name, age, math, science, english}){
