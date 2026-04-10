@@ -1,5 +1,10 @@
 import { useState } from "react";
 import VoteItem from "./VoteItem";
+import Container from '@mui/material/Container';
+import Typography from "@mui/material/Typography";
+import Stack from '@mui/material/Stack';
+
+
 
 export default function VoteList() {
 
@@ -28,11 +33,14 @@ export default function VoteList() {
     winner = "It's a Tie 🤝";
   }
     return(
-        <div>
-            <h2>Voting App</h2>
+        // <div>
+         <Container maxWidth="sm" sx={{ mt: 4, textAlign: "center" }}>
+         <Typography variant="h4" gutterBottom>
+          Voting App
+          </Typography>
 
-            <ul>
-                {options.map((option) => (
+             <Stack spacing={2}>
+              {options.map((option) => (
                     <VoteItem
                       key={option.id}
                       id={option.id}
@@ -40,10 +48,13 @@ export default function VoteList() {
                       votes={option.votes}
                       countVote={countVote}
                     />
-                ))}
-            </ul>
+              ))}     
+             </Stack>
 
-            <p>{winner}</p>
-        </div>
+            <Typography variant="h6" sx={{ mt: 3, fontWeight: "bold"}}>
+              {winner}
+            </Typography>
+            </Container>
+        /* </div> */
     )
 }
