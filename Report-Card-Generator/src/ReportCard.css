@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Inter:wght@400;500&display=swap');
+
+body {
+    background-color: #1a1a1a;
+    color: white;
+     font-family: 'Inter', sans-serif;
+     display: flex;
+     justify-content: center;
+     padding-top: 10px;
+}
+
+h1, h2, h3 {
+    font-family: 'poppins', sans-serif;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    padding: 30px 20px;
+    border-radius: 10px;
+    gap: 24px;
+    align-items: flex-start;
+}
+
+.name-age{
+    margin-bottom: 30px;
+}
+
+.name-age label{
+    display: block;
+    margin-bottom: 4px;
+    padding-top: 15px;
+}
+
+.name-age input {
+    padding: 13px;
+    width: 100%;    
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid grey;
+    box-sizing: border-box;  
+    color: white;
+}
+
+.marks-container{
+    display: flex;
+    gap: 16px;
+}
+.marks-container label{
+    display: block;
+    margin-bottom: 4px;
+}
+.marks-container input{
+    padding: 9px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid grey;
+    color: white;
+}
+
+.submit-btn{
+    padding: 10px;
+    border-radius: 10px;
+    outline: 0;
+    border: 1px solid grey;
+    margin-top: 30px;
+    width: 100%;
+}
+
+
+form {
+    background-color: #2d2d2d;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+form label {
+    color: #ccc;
+}
+
+form input {
+    background-color: #3d3d3d;
+    border: 1px solid #555;
+    color: white;
+}
+
+form p {
+    color: #ccc;
+}

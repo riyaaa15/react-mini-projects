@@ -1,6 +1,6 @@
 import {  useState } from "react";
 import ReportData from "./ReportData";
-// import "./Practice.css";
+import "./Practice.css";
 
 export default function Practice() {
 
