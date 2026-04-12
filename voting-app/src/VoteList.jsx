@@ -4,8 +4,6 @@ import Container from '@mui/material/Container';
 import Typography from "@mui/material/Typography";
 import Stack from '@mui/material/Stack';
 
-
-
 export default function VoteList() {
 
     let [options, setOptions] = useState([
@@ -25,7 +23,10 @@ export default function VoteList() {
 
   //Winner logic
   let winner;
-  if(options[0].votes > options[1].votes){
+
+  if (options[0].votes === 0 && options[1].votes === 0) {
+    winner = "No votes yet 🗳️";
+  } else if(options[0].votes > options[1].votes){
     winner = `${options[0].name} is Winning! 🏆`;
   } else if (options[1].votes > options[0].votes) {
     winner = `${options[1].name} is Winning! 🏆`;

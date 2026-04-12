@@ -1,8 +1,8 @@
 import {  useState } from "react";
 import ReportData from "./ReportData";
-import "./Practice.css";
+import "./ReportCard.css";
 
-export default function Practice() {
+export default function ReportCard() {
 
   let [formData, setFormData] = useState({
     name: "",
