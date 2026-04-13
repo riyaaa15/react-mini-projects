@@ -23,3 +23,7 @@ Built using the useState hook, along with array mapping and conditional updates 
 7. Number Guessing Game 🎯 - A fun React game where you guess a secret number between 1–100. 
 Get hints like 🔥 Very Close, 😐 Not Close based on how far your guess is. 
 Built using useState hook with random number generation and attempt tracking.
+
+8. Voting App 🗳️ - A simple React voting app where users can vote between options and see live results.
+Votes update instantly, and the app shows the current winner or a tie/no-vote state.
+Built using useState, array mapping, conditional rendering, and Material UI (MUI) for a clean UI.
