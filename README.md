@@ -27,3 +27,7 @@ Built using useState hook with random number generation and attempt tracking.
 8. Voting App 🗳️ - A simple React voting app where users can vote between options and see live results.
 Votes update instantly, and the app shows the current winner or a tie/no-vote state.
 Built using useState, array mapping, conditional rendering, and Material UI (MUI) for a clean UI.
+
+9. Report Card Generator 📊 - A React app that allows users to enter student details and marks to generate a report card instantly.
+It calculates total marks, percentage, grade, and pass/fail result dynamically based on the input.
+Built using the useState hook for form handling, along with conditional rendering and basic data calculations to display results in a structured UI.
