@@ -4,11 +4,11 @@ export default function Profile() {
     const user = useOutletContext()
 
     return(
-        <div>
+        <div className="profile-card">
             <h1>Profile</h1>
             <p>{user.name}</p>
-            <p>{user.email}</p>
-            <p>{user.age}</p>
+            <p>Email- {user.email}</p>
+            <p>Age - {user.age}</p>
         </div>
     )
 }

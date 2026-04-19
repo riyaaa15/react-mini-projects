@@ -10,7 +10,7 @@ export default function Orders() {
     ]
 
     return(
-       <div>
+       <div className="order-card">
          <h1>{user.name}'s Orders</h1>
          {orders.map((order) => (
           <div key={order.status}>
