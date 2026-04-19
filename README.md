@@ -31,3 +31,6 @@ Built using useState, array mapping, conditional rendering, and Material UI (MUI
 9. Report Card Generator 📊 - A React app that allows users to enter student details and marks to generate a report card instantly.
 It calculates total marks, percentage, grade, and pass/fail result dynamically based on the input.
 Built using the useState hook for form handling, along with conditional rendering and basic data calculations to display results in a structured UI.
+
+10. ShopEase 🛒 - A React mini e-commerce app where users can browse products, view detailed product pages, and access a protected dashboard with Profile and Orders sections.
+Built using React Router DOM with dynamic routes, nested routes, Outlet context, useParams, useNavigate, NavLink, and Protected Routes.
