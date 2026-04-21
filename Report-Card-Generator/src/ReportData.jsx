@@ -1,10 +1,10 @@
 import "./ReportData.css";
 
 export default function ReportData({
-    name, age, math, science, english}){
+    name, age, math, science, english, hindi, socialScience, computerScience}){
 
-    let total = Number(math) + Number(science) + Number(english);
-    let percentage = (total / 300) * 100;
+    let total = Number(math) + Number(science) + Number(english) + Number(hindi) + Number(socialScience) + Number(computerScience);
+    let percentage = (total / 600) * 100;
 
     let grade = "";
 
@@ -24,7 +24,7 @@ export default function ReportData({
            <div className="stats">
             <div>
                 <p className="stats-label">Total Marks</p>
-                <p className="stats-value">{total}/300</p>
+                <p className="stats-value">{total}/600</p>
             </div>
             <div>
                 <p className="stats-label">Percentage</p>
@@ -45,6 +45,18 @@ export default function ReportData({
                 <span>English</span>
                 <span>{english}</span>
            </div>
+            <div className="subject-row">
+                <span>Hindi</span>
+                <span>{hindi}</span>
+            </div>
+            <div className="subject-row">
+                <span>Social Science</span>
+                <span>{socialScience}</span>
+            </div>
+            <div className="subject-row">
+                <span>Computer Science</span>
+                <span>{computerScience}</span>
+            </div>
         </div>    
 
             <div className="grade-result">

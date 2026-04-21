@@ -10,6 +10,9 @@ export default function ReportCard() {
     math: "",
     science: "",
     english: "",
+    hindi: "",
+    socialScience: "",
+    computerScience: "",
   });
 
   let [reportData, setReportData] = useState(null);
@@ -21,7 +24,7 @@ export default function ReportCard() {
   let handleSubmit = (e) => {
     e.preventDefault();
     setReportData(formData);
-    setFormData({name: "", age: "", math: "", science: "", english: ""});
+    setFormData({name: "", age: "", math: "", science: "", english: "", hindi: "", socialScience: "", computerScience: ""});
   };
   
   return(
@@ -55,6 +58,21 @@ export default function ReportCard() {
             <label htmlFor="english">English</label>
             <input type="number" placeholder="0" value={formData.english} id="english" onChange={handleChange} name="english"/>
           </div>
+
+          <div>
+            <label htmlFor="hindi">Hindi</label>
+            <input type="number" placeholder="0" value={formData.hindi} id="hindi" onChange={handleChange} name="hindi"/>
+          </div>
+          
+          <div>
+            <label htmlFor="socialScience">Social Science</label>
+            <input type="number" placeholder="0" value={formData.socialScience} id="socialScience" onChange={handleChange} name="socialScience"/>
+          </div>
+
+          <div>
+            <label htmlFor="computerScience">Computer Science</label>
+            <input type="number" placeholder="0" value={formData.computerScience} id="computerScience" onChange={handleChange} name="computerScience"/>
+          </div>
         </div>
 
         <button  className="submit-btn" type="submit">Generate Report Card</button>
@@ -65,7 +83,13 @@ export default function ReportCard() {
       age={reportData.age}
       math={reportData.math}
       science={reportData.science}
-      english={reportData.english} />}
+      english={reportData.english} 
+      hindi={reportData.hindi}
+      socialScience={reportData.socialScience}
+      computerScience={reportData.computerScience}
+      /> 
+      }
+     
     </div>
   );
 };
