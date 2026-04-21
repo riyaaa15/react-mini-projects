@@ -43,8 +43,13 @@ h1, h2, h3 {
 
 .marks-container{
     display: flex;
+    flex-wrap: wrap;
     gap: 16px;
 }
+.marks-container > div {
+    width: calc(33% - 11px);
+}
+
 .marks-container label{
     display: block;
     margin-bottom: 4px;
