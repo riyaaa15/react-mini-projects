@@ -1,11 +1,11 @@
 export default function MovieItem({ movie, onWatch }) {
   return (
-    <li key={movie.id}>
-      <span style={{ textDecoration: movie.watched ? "line-through" : "none" }}>
+    <li className="movie-item" key={movie.id}>
+      <span className={`movie-name ${movie.watched ? "watched" : ""}`}>
         {movie.name}
       </span>
       - {movie.genre} - ⭐ {movie.rating}
-      <button onClick={() => onWatch(movie.id)}>Mark Watched</button>
+      <button className="watch-btn" onClick={() => onWatch(movie.id)}>Mark Watched</button>
     </li>
   );
 }

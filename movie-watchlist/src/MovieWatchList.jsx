@@ -1,7 +1,7 @@
 import { useState } from "react";
 import MovieList from "./MovieList";
 
-export default function Practice() {
+export default function MovieWatchList() {
   let [movies, setMovies] = useState([
     { id: 1, name: "KGF", rating: 9, genre: "Action", watched: false },
     { id: 2, name: "RRR", rating: 8, genre: "Drama", watched: false },
@@ -16,5 +16,9 @@ export default function Practice() {
     );
   };
 
-  return <MovieList movies={movies} onWatch={watchedMovie} />;
+  return (
+    <div className="movie-app">
+      <MovieList movies={movies} onWatch={watchedMovie} />
+    </div>
+  );
 }
