@@ -34,3 +34,6 @@ Built using the useState hook for form handling, along with conditional renderin
 
 10. ShopEase 🛒 - A React mini e-commerce app where users can browse products, view detailed product pages, and access a protected dashboard with Profile and Orders sections.
 Built using React Router DOM with dynamic routes, nested routes, Outlet context, useParams, useNavigate, NavLink, and Protected Routes.
+
+11. TailwindCSS 🎨 - A React project built to practice and explore Tailwind CSS utility classes.
+Covers responsive layouts, custom styling, flexbox, grid, hover effects, and component-based design using Tailwind's class-based approach.
