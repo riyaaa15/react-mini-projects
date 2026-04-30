@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Lusitana:wght@400;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Lusitana:wght@400;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     font-family: "Lusitana", georgia, serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(232, 233, 236);
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 700px;
+  border-radius: 20px;
+  background-color: #fff;
+  padding: 2rem;
+  overflow-y: auto;
+  box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+.drink-data {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.image {
+  height: 280px;
+  width: 280px;
+  border-radius: 20px;
+  margin-top: 1rem;
+  box-shadow: 0px 10px 24px rgba(0, 0, 0, 0.414);
+}
+
+.title {
+  margin-top: 0;
+  letter-spacing: 3px;
+  font-size: 35px;
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 900;
+}
+
+.search-section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.image-section {
+  display: flex;
+  flex-direction: row;
+  align-items: row;
+  align-items: flex-start;
+  gap: 15px;
+  padding: 1rem;
+}
+
+input {
+  height: 35px;
+  width: 250px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.15);
+  padding: 1rem;
+  font-family: "Lusitana", georgia, serif;
+  background-color: #DFDECC;
+}
+
+.search-btn, .random-btn {
+  height: 35px;
+  width: 80px;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.15);
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+.search-btn {
+  background-color: #EADBE7;
+}
+
+.random-btn {
+  background-color: #AFCCB0;
+  width: 110px;
+}
+.name-category {
+  margin-left: 1rem;
+}
+
+.name {
+  font-size: 50px;
+  padding-top: 2rem;
+}
+.category {
+  font-size: 20px;
+  color: #CB691F;
+}
+
+.instructions {
+  font-size: 17px;
+  color: #0048AE;
+  box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.15);
+  border-radius: 20px;
+  padding: 1rem;
+}
+
+.ingredient, h3 {
+ color: #FF597A;
+}
+
+h3 {
+  font-size: 26px;
+  padding-top: 1rem;
+}
+
+
+span {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.error {
+    color: red;
+    font-size: 18px;
+    margin-top: 1rem;
+}
+
+.loading {
+    color: gray;
+    font-size: 18px;
+    margin-top: 1rem;
+}
