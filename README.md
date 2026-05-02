@@ -37,3 +37,6 @@ Built using React Router DOM with dynamic routes, nested routes, Outlet context,
 
 11. TailwindCSS 🎨 - A React project built to practice and explore Tailwind CSS utility classes.
 Covers responsive layouts, custom styling, flexbox, grid, hover effects, and component-based design using Tailwind's class-based approach.
+
+12. GitHub Profile Finder 🔍 - A React app to search any GitHub username and view their profile info like avatar, bio, followers, following, and public repos.
+Built using GitHub REST API, Fetch API, useState hook, loading and error state handling.
