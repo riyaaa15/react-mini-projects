@@ -40,3 +40,6 @@ Covers responsive layouts, custom styling, flexbox, grid, hover effects, and com
 
 12. GitHub Profile Finder 🔍 - A React app to search any GitHub username and view their profile info like avatar, bio, followers, following, and public repos.
 Built using GitHub REST API, Fetch API, useState hook, loading and error state handling.
+
+13. Cocktail Finder 🍹 - A React app to search any cocktail and view its details like image, category, instructions, and ingredients. Also includes a Random Drink button to discover a surprise cocktail.
+Built using TheCocktailDB API, Fetch API, useState hook, loading and error state handling.  
