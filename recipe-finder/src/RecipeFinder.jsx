@@ -151,6 +151,9 @@ export default function RecipeFinder() {
                     </div>
                 ))}
             </div>
+
+            {loading && <p className="loading">Searching...</p>}
+            {error && <p className="error">{error}</p>}
         </div>
     )
 }
