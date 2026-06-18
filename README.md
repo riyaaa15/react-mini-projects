@@ -34,3 +34,4 @@ Built using GitHub REST API, Fetch API, useState hook, loading and error state h
 10. Cocktail Finder 🍹 - A React app to search any cocktail and view its details like image, category, instructions, and ingredients. Also includes a Random Drink button to discover a surprise cocktail.
 Built using TheCocktailDB API, Fetch API, useState hook, loading and error state handling.  
 
+11. movie-search-app - CineSearch is a movie search app built with React and Vite that lets you search any movie by name and instantly view its poster, title, release year, and type.CineSearch is a movie search app built with React and Vite that lets you search any movie by name and instantly view its poster, title, release year, and type. It uses the OMDB API with Axios for data fetching and handles missing posters gracefully with a fallback UI.
