@@ -13,7 +13,7 @@ A movie search app built with React + Vite using the OMDB API.
 - React
 - Vite
 - Axios
-- OMDB API
+- OMDB APIa
 
 ## Getting Started
 
