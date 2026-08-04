@@ -35,3 +35,5 @@ Built using GitHub REST API, Fetch API, useState hook, loading and error state h
 Built using TheCocktailDB API, Fetch API, useState hook, loading and error state handling.  
 
 11. movie-search-app - CineSearch is a movie search app built with React and Vite that lets you search any movie by name and instantly view its poster, title, release year, and type.CineSearch is a movie search app built with React and Vite that lets you search any movie by name and instantly view its poster, title, release year, and type. It uses the OMDB API with Axios for data fetching and handles missing posters gracefully with a fallback UI.
+
+12. recipe-finder - this app that lets you search any meal by name or filter by category — Chicken, Beef, Seafood, Vegetarian, and Dessert. Displays meal image, category, country, a preview of cooking instructions, and a list of ingredients. Built using Axios for API calls, useState for state management, and TheMealDB API — no API key required.
